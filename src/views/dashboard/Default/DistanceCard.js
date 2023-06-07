@@ -82,7 +82,7 @@ const EarningCard = ({ isLoading, distance }) => {
               <Grid item>
                 <Grid container alignItems="center">
                   <Grid item>
-                    <Typography sx={{ fontSize: '2.125rem', fontWeight: 500, mr: 1, mt: 1.75, mb: 0.75 }}>{distance} km</Typography>
+                    <Typography sx={{ fontSize: '2.125rem', fontWeight: 500, mr: 1, mt: 1.75, mb: 0.75 }}>{distance} cm</Typography>
                   </Grid>
                   <Grid item>
                     <Avatar
