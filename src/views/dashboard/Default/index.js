@@ -45,6 +45,7 @@ const Dashboard = () => {
       });
     };
     fetchDataAsync();
+    console.log(gpsData);
   }, [gpsData]);
 
   return (
