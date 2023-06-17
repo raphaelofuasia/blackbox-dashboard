@@ -4,7 +4,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
 const Map = () => {
   // const position = [latitude, longitude];
-  const position2 = [6.670473801959922, 3.153438644180987];
+  const position2 = [6.675843, 3.162445];
   // function ChangeView({ center, zoom = 12 }) {
   //   const map = useMap();
   //   map.setView(center, zoom);
