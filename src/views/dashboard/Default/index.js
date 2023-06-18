@@ -17,7 +17,7 @@ import axios from 'axios';
 
 const fetchData = async () => {
   try {
-    const response = await axios.get('http://165.232.123.217:9099/datalogger/?format=json');
+    const response = await axios.get('/api');
     return response.data;
   } catch (error) {
     console.error('Error fetching data:', error);

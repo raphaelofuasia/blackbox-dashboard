@@ -1,0 +1,1 @@
+/api/* http://165.232.123.217:9099/datalogger/?format=json
